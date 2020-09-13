@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396868472421",
+    "firebase_url": "https://sih-chat-bcb76.firebaseio.com",
+    "project_id": "sih-chat-bcb76",
+    "storage_bucket": "sih-chat-bcb76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396868472421:android:89dc08c94b6054f697808c",
+        "android_client_info": {
+          "package_name": "com.digitaldetox.aww"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396868472421-unnqi9f145juhobqvfo13m7mhgd0idlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALIlMZScGJv2eZbdVVDTavRd3m2qIJuxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396868472421-unnqi9f145juhobqvfo13m7mhgd0idlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

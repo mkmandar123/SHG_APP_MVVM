@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth_messaging"
+    app:startDestination="@id/launcherMessagingFragment">
+
+    <fragment
+        android:id="@+id/launcherMessagingFragment"
+        android:name="com.digitaldetox.aww.ui.auth_messaging.LauncherMessagingFragment"
+ >
+        <action
+            android:id="@+id/action_launcherMessagingFragment_to_loginMessagingFragment"
+            app:destination="@id/loginMessagingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_launcherMessagingFragment_to_signUpMessagingFragment"
+            app:destination="@id/signUpMessagingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginMessagingFragment"
+        android:name="com.digitaldetox.aww.messagingmvvm.fragments.login.LoginMessagingFragment"
+        tools:layout="@layout/fragment_login_messaging" >
+        <action
+            android:id="@+id/action_loginMessagingFragment_to_signUpMessagingFragment"
+            app:destination="@id/signUpMessagingFragment" />
+        <action
+            android:id="@+id/action_loginMessagingFragment_to_launcherMessagingFragment"
+            app:destination="@id/launcherMessagingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpMessagingFragment"
+        android:name="com.digitaldetox.aww.messagingmvvm.fragments.register.SignupMessagingFragment"
+        >
+        <action
+            android:id="@+id/action_signUpMessagingFragment_to_loginMessagingFragment"
+            app:destination="@id/loginMessagingFragment" />
+    </fragment>
+</navigation>

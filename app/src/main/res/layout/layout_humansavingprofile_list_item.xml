@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_card_required"
+    style="@style/CardViewUsual"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    app:cardBackgroundColor="@color/detailed_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/activity_add_title_require"
+            style="@style/TitleBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/shg_details" />
+
+        <TextView
+            android:id="@+id/activity_add_title_required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="16dp"
+            android:text="Info" />
+
+        <RelativeLayout
+            android:id="@+id/activity_add_rl_proteins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_add_title_require"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/activity_add_title_proteins"
+                style="@style/TextUsualBlackSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:text="@string/shg_name" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/humansavingprofile_title"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                tools:text="Village"
+                android:layout_marginStart="180dp"
+                android:layout_marginEnd="16dp"
+                
+               />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_add_rl_fats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_add_rl_proteins"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextUsualBlackSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:text="SHG Members Count" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/humansavingprofile_update_date"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                tools:text="9"
+                android:layout_marginStart="180dp"
+                android:layout_marginEnd="16dp"
+                
+             />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_add_rl_carbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_add_rl_fats"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextUsualBlackSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:text="@string/shg_location" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/humansavingprofile_body"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="textStart"
+
+                android:layout_centerVertical="true"
+                tools:text="Aurangabad"
+                android:layout_marginStart="180dp"
+                android:layout_marginEnd="16dp"
+                
+              />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

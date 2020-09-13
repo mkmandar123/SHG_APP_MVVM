@@ -1,0 +1,318 @@
+<resources>
+    <string name="app_name">ਡਿਜੀਟਲ ਡੀਟੌਕਸ</string>
+
+    <!-- Intent extras -->
+    <string name="auth_token">auth_token</string>
+    <string name="password_reset_info">ਅਸੀਂ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਸੈੱਟ ਕਰਨ ਲਈ ਨਿਰਦੇਸ਼ਾਂ ਨੂੰ ਈਮੇਲ ਕੀਤਾ ਹੈ. ਜੇ ਕੋਈ ਖਾਤਾ ਮੌਜੂਦ ਹੈ
+         ਤੁਹਾਡੇ ਦੁਆਰਾ ਦਾਖਲ ਕੀਤੀ ਗਈ ਈਮੇਲ ਦੇ ਨਾਲ.
+         ਤੁਹਾਨੂੰ ਜਲਦੀ ਹੀ ਉਨ੍ਹਾਂ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ. ਜੇ ਤੁਸੀਂ ਇਕ ਈਮੇਲ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰਦੇ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ ਪਤਾ ਦਾਖਲ ਕੀਤਾ ਹੈ.
+         ਨਾਲ ਰਜਿਸਟਰਡ,
+         ਅਤੇ ਆਪਣੇ ਸਪੈਮ ਫੋਲਡਰ ਦੀ ਜਾਂਚ ਕਰੋ.
+    </string>
+
+    <string name="account">ਖਾਤਾ</string>
+    <string name="logout">ਲਾੱਗ ਆਊਟ, ਬਾਹਰ ਆਉਣਾ</string>
+    <string name="my_blogs">ਮੇਰੇ ਬਲੌਗ</string>
+    <string name="home">ਘਰ</string>
+    <string name="create">ਬਣਾਓ</string>
+
+    <string name="fragment_create_subreddit">ਬਣਾਓ</string>
+    <string name="fragment_update_subreddit">ਅਪਡੇਟ</string>
+    <string name="fragment_view_subreddit">ਵੇਖੋ</string>
+    <string name="fragment_subreddit">ਸਬਰੇਡਿਟ</string>
+
+
+    <string name="fragment_create_blog">ਬਣਾਓ</string>
+    <string name="fragment_update_blog">ਅਪਡੇਟ</string>
+    <string name="fragment_view_blog">ਵੇਖੋ</string>
+    <string name="fragment_account">ਖਾਤਾ</string>
+    <string name="fragment_change_password">ਪਾਸਵਰਡ ਬਦਲੋ</string>
+    <string name="fragment_blog">ਬਲਾੱਗ</string>
+    <string name="save_changes">ਕੀਤੇ ਗਏ ਬਦਲਾਅ ਸੁਰੱਖਿਅਤ ਕਰੋ</string>
+    <string name="fragment_update_account">ਅਪਡੇਟ ਖਾਤਾ</string>
+    <string name="arg_email">ਆਰਗ_ਮੇਲ</string>
+    <string name="arg_username">ਆਰਗ_ਯੂਜ਼ਰਨਾਮ</string>
+    <string name="enter_a_username">ਇੱਕ ਉਪਭੋਗਤਾ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_your_email">ਆਪਣਾ ਈ - ਮੇਲ ਭਰੋ</string>
+    <string name="current_password">ਵਰਤਮਾਨ ਪਾਸਵਰਡ</string>
+    <string name="confirm_new_password">ਨਵੇਂ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="new_password">ਨਵਾਂ ਪਾਸਵਰਡ</string>
+    <string name="change_password">ਪਾਸਵਰਡ ਬਦਲੋ</string>
+    <string name="your_email">ਤੁਹਾਡਾ ਈਮੇਲ</string>
+    <string name="your_username">ਤੁਹਾਡਾ ਉਪਯੋਗਕਰਤਾ ਨਾਮ</string>
+    <string name="register">ਰਜਿਸਟਰ</string>
+    <string name="search">ਖੋਜ</string>
+    <string name="filter">ਫਿਲਟਰ</string>
+    <string name="update_password">ਪਾਸਵਰਡ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="filter_asc">ASC</string>
+    <string name="filter_desc">DESC</string>
+    <string name="filter_author">SHG ਨਾਮ</string>
+    <string name="filter_date">ਐਸਐਚਜੀ ਬਣਾਉਣ ਦੀ ਮਿਤੀ</string>
+    <string name="asc_desc">ਵੱਧਦੇ ਜਾਂ ਉਤਰਦੇ ਕ੍ਰਮ</string>
+    <string name="author_or_date">ਲੇਖਕ ਜਾਂ ਤਾਰੀਖ ਅਨੁਸਾਰ ਫਿਲਟਰ</string>
+    <string name="filter_options">ਕ੍ਰਮਬੱਧ ਵਿਕਲਪ</string>
+    <string name="publish">ਪਬਲਿਸ਼</string>
+    <string name="are_you_sure">ਤੁਹਾਨੂੰ ਪੂਰਾ ਵਿਸ਼ਵਾਸ ਹੈ?</string>
+    <string name="text_yes">ਹਾਂ</string>
+    <string name="are_you_sure_publish">ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਨੂੰ ਪ੍ਰਕਾਸ਼ਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="are_you_sure_delete">ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਨਾ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ.</string>
+    <string name="text_info">ਜਾਣਕਾਰੀ</string>
+    <string name="delete">ਮਿਟਾਓ</string>
+
+    <string name="AuthNavHost">AuthNavHost</string>
+    <string name="AccountFragmentFactory">ਅਕਾਉਂਟਫਰਾਗਮੈਂਟਫੈਕਟਰੀ</string>
+    <string name="BlogFragmentFactory">BlogFragmentFactory</string>
+    <string name="CreateBlogFragmentFactory">CreateBlogFragmentFactory</string>
+
+    <string name="forgot_password">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ</string>
+    <string name="launcher">ਲਾਂਚਰ</string>
+    <string name="login">ਲਾਗਿਨ</string>
+    <string name="text_login">ਲਾਗਿਨ</string>
+    <string name="text_register">ਰਜਿਸਟਰ</string>
+    <string name="text_forgot_password">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ</string>
+    <string name="process_death_state">ਕਾਰਜ_ਡੈਥ_ਸਟੇਟ</string>
+    <string name="invalid_login_credentials">ਅਵੈਧ ਲੌਗਇਨ</string>
+
+    <string name="type_something_to_let_your_friends_know_you_better_messaging">ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਤੁਹਾਨੂੰ ਬਿਹਤਰ ਜਾਣਨ ਲਈ ਕੁਝ ਲਿਖੋ</string>
+    <string name="take_new_profile_picture_messaging">ਨਵੀਂ ਪ੍ਰੋਫਾਈਲ ਤਸਵੀਰ ਲਓ</string>
+    <string name="select_profile_picture_messaging">ਪ੍ਰੋਫਾਈਲ ਤਸਵੀਰ ਦੀ ਚੋਣ ਕਰੋ</string>
+
+
+    <string name="lorem_ipsum_1_para_vivamus">A self-help group is a financial intermediary committee usually composed of 10 to 20 local women or men between 18 to 40 years. Most self-help groups are in India, though SHGs can be found in other countries, especially in South Asia and Southeast Asia.</string>
+
+
+
+    <string name="lorem_ipsum_2_para">ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ. ਮਗਨ ਐਨੀਮਿਟ ਵਿਚ ਡੋਨਕ. ਮੋਰਬੀ ਵੈਲਪੁਟੇਟ ਐਟ ਨਿਬ ਸੇਡ ਸਲੈੱਕਸੀਡਿਨ. ਇਸ ਤੋਂ ਇਲਾਵਾ, ਵੱਖਰੇ ਵੱਖਰੇ ਵੱਖਰੇ ਵੱਖਰੇ ਵੱਖਰੇ ਵੱਖਰੇ ਵੱਖਰੇ ਵੱਖਰੇ ਖੇਤਰਾਂ, ਨਿilla ਜਸਟੋ ਵਾਹਨਕੁਲਾ ਜਸਟੋ, ਆਈ ਡੀ ਪੋਰਟਿਟਰ ਰੀਸ ਮੀਲ ਆਈ ਡੀ ਸਪੈਨ. ਨਾਮ ਗ੍ਰਾਵਿਡਾ, ਮੂਲੇਸਟੇ ਪੈਲੇਂਟੇਸਕ ਵਿਚ ਇਕ ਮਹੱਤਵਪੂਰਣ ਸੂਚੀ ਹੈ, ਜੋ ਕਿ ਪਹਿਲਾਂ ਤੋਂ ਬਹੁਤ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਹੈ. ਮਾਇਨੇਸ ਨੇਕ ਈਰੋਸ, ਅਪਰਿਡਿਏਟ ਸੇਡ ਟਿਨਸਿਡਟ ਗੈਰ, ਕ੍ਰੂਸ ਯੂ ਯੂ ਮਾਸ. ਇਸ ਦਾ ਨਤੀਜਾ ਇਹ ਨਹੀਂ ਹੈ ਕਿ ਇਹ ਕਿਸ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਦਾ ਹੈ. ਵੇਸਟੀਬੂਲਮ ਸੈਡ ਈਸਟੇਸ ਸੇਮ. ਵੇਸਟੀਬੂਲਮ ਏਲਿਟ ਆਰਕੁ, ਹੈਂਡਰਿਟ ਵੇਲ ਰੋਂਕੁਸ ਇਨ, ਪੇਲਨੇਟੇਸਕ ਐਟ ਫੈਲਿਸ. ਪੂਰਨ ਅੰਕ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਮਾਣ ਵਾਲੀ ਸਹੂਲਤ. ਇਸ ਲੇਖ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ, ਸਾਨੂੰ ਇਸਤੇਮਾਲ ਕਰਨ ਦੀ ਲੋੜ ਹੈ.</string>
+    <string name="filter_request_title">ਬੇਨਤੀ ਸਿਰਲੇਖ</string>
+    <string name="filter_request_creation_date">ਬੇਨਤੀ ਨਿਰਮਾਣ ਦੀ ਮਿਤੀ</string>
+    <string name="request_title_or_date">ਸਿਰਲੇਖ ਦੀ ਬੇਨਤੀ ਕਰੋ ਜਾਂ ਨਿਰਮਾਣ ਦੀ ਮਿਤੀ ਦੀ ਮੰਗ ਕਰੋ</string>
+    <string name="shg_name_or_creation_date">SHG ਨਾਮ ਜਾਂ SHG ਬਣਾਉਣ ਦੀ ਮਿਤੀ</string>
+
+
+    <string name="wrong_email_format">ਗਲਤ ਈਮੇਲ ਫਾਰਮੈਟ</string>
+    <string name="password_size">ਪਾਸਵਰਡ ਘੱਟੋ ਘੱਟ 6 ਅੱਖਰ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="about_me">ਬਾਇਓ</string>
+    <string name="edit">ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="friends">ਦੋਸਤੋ</string>
+    <string name="select_profile_picture">ਤਸਵੀਰ ਚੁਣੋ</string>
+    <string name="take_new_profile_picture">ਨਵੀਂ ਤਸਵੀਰ ਲਓ</string>
+    <string name="uploading">ਅਪਲੋਡ ਕਰ ਰਿਹਾ ਹੈ ...</string>
+    <string name="type_something_to_let_your_friends_know_you_better">ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਤੁਹਾਨੂੰ ਬਿਹਤਰ ਜਾਣਨ ਲਈ ਕੁਝ ਲਿਖੋ</string>
+    <string name="submit">ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="cancel_request">ਬੇਨਤੀ ਨੂੰ ਰੱਦ ਕਰੋ</string>
+    <string name="friend_request_not_sent">ਜੁੜੋ</string>
+    <string name="confirm">ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="no_incoming_requests">ਕੋਈ ਆਉਣ ਵਾਲੀਆਂ ਬੇਨਤੀਆਂ ਨਹੀਂ</string>
+    <string name="no_friends_yet">ਅਜੇ ਕੋਈ ਦੋਸਤ ਨਹੀਂ</string>
+    <string name="find_friends">ਦੋਸਤ ਲੱਭੋ</string>
+    <string name="no_one_to_chat_with_yet_add_more_friend_to_get_going">ਹਾਲੇ ਤੱਕ ਕੋਈ ਚੈਟ ਇਤਿਹਾਸ ਨਹੀਂ ਹੈ !! ਦੋਸਤ ਲੱਭੋ ਅਤੇ ਚੱਲੋ !!</string>
+    <string name="type_a_message">ਇੱਕ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ</string>
+    <string name="empty_message">ਖਾਲੀ ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜ ਸਕਦਾ</string>
+
+
+    <string name="you">You: %1$s</string>
+    <string name="other">%1$s: %2$s</string>
+    <string name="other_image">%1$s ਇੱਕ ਚਿੱਤਰ ਭੇਜਿਆ</string>
+    <string name="other_file">%1$s ਇੱਕ ਫਾਈਲ ਭੇਜੀ</string>
+    <string name="no_users_to_add_yet">ਕੋਈ ਉਪਭੋਗਤਾ ਅਜੇ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਨਹੀਂ ਹਨ.</string>
+    <string name="you_sent_image">ਤੁਸੀਂ ਇੱਕ ਚਿੱਤਰ ਭੇਜਿਆ ਹੈ</string>
+    <string name="send_file">ਫਾਈਲ ਭੇਜੋ</string>
+    <string name="send_picture">ਤਸਵੀਰ ਭੇਜੋ</string>
+    <string name="you_sent_file">ਤੁਸੀਂ ਇੱਕ ਫਾਈਲ ਭੇਜੀ ਹੈ</string>
+    <string name="you_sent_record">ਤੁਸੀਂ ਇੱਕ ਵੌਇਸ ਰਿਕਾਰਡ ਭੇਜਿਆ ਹੈ</string>
+    <string name="other_record">%1$s ਇੱਕ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਭੇਜਿਆ</string>
+    <string name="delete_from_friends">ਦੋਸਤਾਂ ਤੋਂ ਹਟਾਓ</string>
+    <string name="no_friends">ਉਪਭੋਗਤਾ ਦੇ ਅਜੇ ਕੋਈ ਦੋਸਤ ਨਹੀਂ ਹਨ</string>
+    <string name="create_group">ਸਮੂਹ ਬਣਾਓ</string>
+    <string name="join_group_using_key">Join Group using Key</string>
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">ਆਪਣੀ ਜਗ੍ਹਾ ਦੀ ਖੋਜ ਕਰੋ</string>
+    <string name="second_slide_title">ਕਾਲ ਕਰੋ</string>
+    <string name="third_slide_title">ਗੁੰਮਣ ਵਾਲੀ ਜਗ੍ਹਾ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="fourth_slide_title">ਵਾਪਸ ਬੈਠੋ ਅਤੇ ਅਨੰਦ ਲਓ</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">ਤੁਸੀਂ ਨਿਰਧਾਰਤ ਸ਼ਹਿਰ ਦੇ ਨੇੜੇ-ਤੇੜੇ ਜਾਂ ਕਿਸੇ ਵੀ ਜਗ੍ਹਾ ਦੀ ਭਾਲ ਕਰ ਸਕਦੇ ਹੋ. ਅਸੀਂ ਤੁਹਾਡੀ ਖੋਜ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ ਖਾਸ ਜਾਂ ਸਾਰੀਆਂ ਸਬੰਧਤ ਦੁਕਾਨਾਂ ਪ੍ਰਦਰਸ਼ਤ ਕਰਾਂਗੇ. </string>
+    <string name="second_slide_desc">ਅਸੀਂ ਸਾਡੇ ਨਾਲ ਰਜਿਸਟਰਡ ਸਾਰੇ ਵਿਭਾਗਾਂ ਅਤੇ ਦੁਕਾਨਾਂ ਦੇ ਲਗਭਗ ਸਾਰੇ ਨੰਬਰ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ. ਤੁਸੀਂ ਬੁਕਿੰਗ ਵੀ ਕਰ ਸਕਦੇ ਹੋ.</string>
+    <string name="third_slide_desc">ਜੇ ਤੁਹਾਡੀ ਕੋਈ ਦੁਕਾਨ ਹੈ ਜਾਂ ਕੁਝ ਹੈ ਅਤੇ ਸਾਡੇ ਵਧ ਰਹੇ ਉਦਯੋਗ ਦਾ ਹਿੱਸਾ ਬਣਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸਧਾਰਣ ਕਦਮਾਂ ਦੀ ਪਾਲਣਾ ਕਰਕੇ ਆਪਣੀ ਜਗ੍ਹਾ ਸ਼ਾਮਲ ਕਰੋ.</string>
+    <string name="fourth_slide_desc">ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਸਭ ਕੁਝ ਸੰਭਾਲਾਂਗੇ. ਜਿਵੇਂ ਕਿ ਤੁਹਾਡੀ ਜੇਬ ਵਿਚ ਐਪ ਹੈ</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">ਛੱਡੋ</string>
+    <string name="next_btn">ਅਗਲਾ</string>
+    <string name="let_get_started">ਆਓ ਸ਼ੁਰੂ ਕਰੀਏ</string>
+    <string name="hello_blank_fragment">ਸਤ ਸ੍ਰੀ ਅਕਾਲ</string>
+    <string name="wrong_email_format_messaging">ਗਲਤ ਈਮੇਲ</string>
+    <string name="login_password_edit_text_hint">ਸੋਧ</string>
+
+
+
+
+    <string name="fragment_create_feedback">ਬਣਾਓ</string>
+    <string name="fragment_update_feedback">ਅਪਡੇਟ</string>
+
+
+
+    <!--    FIREBASE     -->
+    <string name="title_home">ਘਰ</string>
+    <string name="title_dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="title_notifications">ਨੋਟੀਫਿਕੇਸ਼ਨ</string>
+    <string name="lorem_ipsum">ਲੋਅਰਸ ਇਪਸਮ ਡੋਲਰ ਬੈਸਟ ਅਮੇਰ, ਪ੍ਰੈਕਟਿਸ ਅਥਾਰਿਟੀ ਐਲੀਟਮੈਂਟ, ਸੈਮ ਈਮਸੋਡਰ ਟੈਂਪੋਰ ਇਨ ਇਨਸਾਈਡੈਂਟ ਯੂਟ ਲੇਬਰ ਐਂਡ ਡੋਰੋਰ ਮੈਗਨਾ ਅਲਿਕਆ.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sign_out_from_chat">ਚੈਟ ਤੋਂ ਸਾਈਨ ਆਉਟ ਕਰੋ</string>
+    <string name="save_changes_in_profile">ਸੇਵ</string>
+    <string name="name_chat_profile">ਨਾਮ</string>
+    <string name="bio_chat_profile">ਬਾਇਓ</string>
+    <string name="fragment_feedback">ਟੁਕੜਾ ਪ੍ਰਤੀਕ੍ਰਿਆ</string>
+    <string name="fragment_view_feedback">ਟੁਕੜਾ ਵੇਖਣ ਲਈ ਫੀਡਬੈਕ</string>
+    <string name="height">ਕੱਦ</string>
+    <string name="weight">ਭਾਰ</string>
+    <string name="martial_status">ਵਿਵਾਹਿਕ ਦਰਜਾ </string>
+    <string name="education">ਸਿੱਖਿਆ</string>
+    <string name="profession">ਪੇਸ਼ੇ</string>
+    <string name="age">ਉਮਰ</string>
+    <string name="gender">ਲਿੰਗ</string>
+    <string name="eating_habits">ਖਾਣ ਦੀਆਂ ਆਦਤਾਂ</string>
+    <string name="sleeping_habits">ਸੌਣ ਦੀਆਂ ਆਦਤਾਂ</string>
+
+
+    <string name="facebook_app_id">1039249406417764</string>
+    <string name="fb_login_protocol_scheme">fb1039249406417764</string>
+    <string name="login_email_edit_text_hint">ਆਪਣਾ ਈ - ਮੇਲ ਭਰੋ</string>
+    <string name="enter_your_user_name">ਆਪਣਾ ਉਪਭੋਗਤਾ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="new_user_messaging">ਨਵਾਂ ਉਪਭੋਗਤਾ?  </string>
+    <string name="sign_up_messaging">ਸਾਇਨ ਅਪ!</string>
+    <string name="login_messaging">ਲਾਗਿਨ</string>
+    <string name="register_messaging">ਰਜਿਸਟਰ</string>
+    <string name="social_login_messaging">ਸੋਸ਼ਲ ਲੌਗਇਨ</string>
+    <string name="password_size_messaging">ਪਾਸਵਰਡ ਘੱਟੋ ਘੱਟ 6 ਅੱਖਰ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="age_limit_messaging">ਕਿਰਪਾ ਕਰਕੇ ਉਚਿਤ ਉਮਰ ਦਾਖਲ ਕਰੋ</string>
+    <string name="settings_messaging">ਸੈਟਿੰਗਜ਼</string>
+    <string name="logout_messaging">ਲਾੱਗ ਆਊਟ, ਬਾਹਰ ਆਉਣਾ</string>
+    <string name="add_friend_messaging">ਦੋਸਤ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰੋ</string>
+    <string name="search_messaging">ਖੋਜ</string>
+    <string name="about_me_messaging">ਬਾਇਓ</string>
+    <string name="edit_messaging">ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="friends_messaging">ਦੋਸਤੋ</string>
+    <string name="uploading_messaging">ਅਪਲੋਡ ਕਰ ਰਿਹਾ ਹੈ ...</string>
+    <string name="submit_messaging">ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="cancel_request_messaging">ਬੇਨਤੀ ਨੂੰ ਰੱਦ ਕਰੋ</string>
+    <string name="friend_request_not_sent_messaging">ਮਿੱਤਰਤਾ ਬੇਨਤੀ ਭੇਜੋ</string>
+    <string name="confirm_messaging">ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="delete_messaging">ਮਿਟਾਓ</string>
+    <string name="incoming_requests_messaging">ਆਉਣ ਵਾਲੀਆਂ ਬੇਨਤੀਆਂ</string>
+    <string name="no_incoming_requests_messaging">ਕੋਈ ਆਉਣ ਵਾਲੀਆਂ ਬੇਨਤੀਆਂ ਨਹੀਂ</string>
+    <string name="no_friends_yet_messaging">ਅਜੇ ਕੋਈ ਦੋਸਤ ਨਹੀਂ</string>
+    <string name="find_friends_messaging">ਦੋਸਤ ਲੱਭੋ</string>
+    <string name="profile_messaging">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="no_chat_history_yet_click_chat_button_to_start_chatting_messaging">ਅਜੇ ਕੋਈ ਚੈਟ ਇਤਿਹਾਸ ਨਹੀਂ ਹੈ, ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਚੈਟ ਬਟਨ ਤੇ ਕਲਿਕ ਕਰੋ</string>
+    <string name="no_one_to_chat_with_yet_add_more_friend_to_get_going_messaging">ਹਾਲੇ ਤੱਕ ਕੋਈ ਵੀ ਗੱਲਬਾਤ ਕਰਨ ਵਾਲਾ ਨਹੀਂ, ਜਾਣ ਲਈ ਦੋਸਤਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ!</string>
+    <string name="type_a_message_messaging">ਇੱਕ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ</string>
+    <string name="empty_message_messaging">ਖਾਲੀ ਸੁਨੇਹਾ ਨਹੀਂ ਭੇਜ ਸਕਦਾ</string>
+
+
+    <string name="you_messaging">ਤੁਸੀਂ:% 1 $ s</string>
+    <string name="other_messaging">% 1 $ s:% 2 $ s</string>
+    <string name="other_image_messaging">%1$s ਇੱਕ ਚਿੱਤਰ ਭੇਜਿਆ</string>
+    <string name="other_file_messaging">%1$sਇੱਕ ਫਾਈਲ ਭੇਜੀ</string>
+    <string name="no_users_to_add_yet_messaging">ਕੋਈ ਉਪਭੋਗਤਾ ਅਜੇ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਨਹੀਂ ਹਨ.</string>
+    <string name="you_sent_image_messaging">ਤੁਸੀਂ ਇੱਕ ਚਿੱਤਰ ਭੇਜਿਆ ਹੈ</string>
+    <string name="send_file_messaging">ਫਾਈਲ ਭੇਜੋ</string>
+    <string name="send_picture_messaging">ਤਸਵੀਰ ਭੇਜੋ</string>
+    <string name="you_sent_file_messaging">ਤੁਸੀਂ ਇੱਕ ਫਾਈਲ ਭੇਜੀ ਹੈ</string>
+    <string name="you_sent_record_messaging">ਤੁਸੀਂ ਇੱਕ ਵੌਇਸ ਰਿਕਾਰਡ ਭੇਜਿਆ ਹੈ</string>
+    <string name="other_record_messaging">%1$s ਇੱਕ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਭੇਜਿਆ</string>
+    <string name="delete_from_friends_messaging">ਇੱਕ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਕਾਰਡ</string>
+    <string name="no_friends_messaging">ਉਪਭੋਗਤਾ ਦੇ ਕੋਈ ਦੋਸਤ ਨਹੀਂ ਹਨ ਇੱਕ ਆਵਾਜ਼ ਰਿਕਾਰਡ ਭੇਜਿਆyet</string>
+    <string name="go_to_chat_messaging">ਗੱਲਬਾਤ ਤੇ ਜਾਓ</string>
+
+
+    <string name="chat_label_nav_graph">ਗੱਲਬਾਤ</string>
+    <string name="contacts_label_nav_graph">ਸੰਪਰਕ</string>
+    <string name="different_user_profile_label_nav_graph">ਉਪਭੋਗਤਾ ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="home_fragment_label_nav_graph">ਘਰ</string>
+
+    <string name="continue_to_chat">ਗੱਲਬਾਤ ਜਾਰੀ ਰੱਖੋ!</string>
+
+
+    <string name="marital_status">ਵਿਵਾਹਿਕ ਦਰਜਾ</string>
+    <string name="not_married">ਵਿਆਹਿਆ ਨਹੀਂ</string>
+    <string name="married">ਵਿਆਹਿਆ ਨਹੀਂ</string>
+    <string name="male">ਨਰ</string>
+    <string name="female">Femaleਰਤ</string>
+    <string name="your_age">0</string>
+    <string name="about_placeholder_text">ਹੇ! ਮੈਂ ਸਾਈਬਰਵੇਦ ਦੀ ਵਰਤੋਂ ਕਰ ਰਿਹਾ ਹਾਂ!</string>
+    <string name="education_details_placeholder">ਸਿੱਖਿਆ ਦੇ ਵੇਰਵੇ</string>
+    <string name="my_profile">ਮੇਰਾ ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="please_enter_all_required_fields">ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਲੋੜੀਂਦੇ ਖੇਤਰ ਭਰੋ</string>
+    <string name="shg_name">SHG ਨਾਮ</string>
+    <string name="shg_location">ਐਸਐਚਜੀ ਟਿਕਾਣਾ</string>
+    <string name="chat_for_shg_members">ਐਸਐਚਜੀ ਦੇ ਮੈਂਬਰਾਂ ਲਈ ਗੱਲਬਾਤ ਕਰੋ</string>
+    <string name="add_shg_name">SHG ਨਾਮ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="add_shg_location">ਐਸਐਚਜੀ ਸਥਾਨ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="add_shg_details">ਐਸਐਚਜੀ ਦੇ ਵੇਰਵੇ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="shg_member_details">ਐਸਐਚਜੀ ਸਦੱਸ ਦਾ ਵੇਰਵਾ</string>
+    <string name="go_to_shg_app">ਐਸਐਚਜੀ ਐਪ ਤੇ ਜਾਓ</string>
+    <string name="shg_members_count">ਐਸਐਚਜੀ ਮੈਂਬਰ ਗਿਣਤੀ</string>
+    <string name="shg_app">ਐਸਐਚਜੀ ਐਪ</string>
+    <string name="savings_first">ਬਚਤ ਪਹਿਲਾਂ - ਬਾਅਦ ਵਿਚ ਕ੍ਰੈਡਿਟ</string>
+    <string name="shg_loan_requests">ਐਸਐਚਜੀ ਲੋਨ ਬੇਨਤੀਆਂ</string>
+    <string name="shg_saving_requests">ਐਸਐਚਜੀ ਸੇਵਿੰਗ ਬੇਨਤੀਆਂ</string>
+    <string name="shg_details">ਐਸਐਚਜੀ ਵੇਰਵਾ</string>
+    <string name="update_shg_name">SHG ਨਾਮ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="sign_up_to_chat">ਗੱਲਬਾਤ ਲਈ ਸਾਈਨ ਅਪ ਕਰੋ</string>
+    <string name="find_members">ਸਦੱਸ ਲੱਭੋ</string>
+    <string name="add_members_to_group">ਗਰੁੱਪ ਵਿੱਚ ਮੈਂਬਰ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="contacts">ਸੰਪਰਕ</string>
+    <string name="group_info">ਸਮੂਹ ਜਾਣਕਾਰੀ</string>
+    <string name="groups">ਸਮੂਹ</string>
+    <string name="chats">ਗੱਲਬਾਤ</string>
+    <string name="friend_requests">ਦੋਸਤ ਬੇਨਤੀ</string>
+    <string name="login_to_chat">ਚੈਟ ਕਰਨ ਲਈ ਲੌਗਇਨ ਕਰੋ</string>
+    <string name="your_profile">ਤੁਹਾਡਾ ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="chat_registration">ਚੈਟ ਰਜਿਸਟਰੇਸ਼ਨ</string>
+    <string name="profile">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="update_prfofile">ਪ੍ਰੋਫਾਈਲ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="create_new_shg">ਨਵਾਂ ਐਸਐਚਜੀ ਬਣਾਓ</string>
+    <string name="create_new_request">ਨਵੀਂ ਬੇਨਤੀ ਬਣਾਓ</string>
+    <string name="human_profile">ਮਨੁੱਖੀ ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="SHG">ਐਸ.ਐਚ.ਜੀ.</string>
+    <string name="update_loan_request">ਲੋਨ ਦੀ ਬੇਨਤੀ ਨੂੰ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="update_saving_request">ਸੇਵਿੰਗ ਬੇਨਤੀ ਨੂੰ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="request_details">ਬੇਨਤੀ ਵੇਰਵੇ</string>
+
+
+    <string-array name="educations_array">
+        <item>ਹੋਰ</item>
+        <item>ਅੰਡਰ-ਗ੍ਰੈਜੂਏਟ</item>
+        <item>ਪੋਸਟ-ਗ੍ਰੈਜੂਏਟ</item>
+
+    </string-array>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+    tools:context=".ui.main.create_subreddit.CreateSubredditFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_add_card_required"
+        style="@style/CardViewUsual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:cardBackgroundColor="@color/detailed_card">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/activity_add_title_require"
+                style="@style/TitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/add_shg_details" />
+
+            <TextView
+                android:id="@+id/activity_add_title_required"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="16dp"
+                android:text="Info" />
+
+            <RelativeLayout
+                android:id="@+id/activity_add_rl_proteins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_add_title_require"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/activity_add_title_proteins"
+                    style="@style/TextUsualBlackSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/shg_name" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/subreddit_title"
+                    style="@style/TextUsualBlackSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:hint="@string/add_shg_name"
+                    android:inputType="text"
+                    android:maxWidth="230dp"
+                    android:maxLength="40"
+                    android:selectAllOnFocus="true"
+                    android:textAlignment="center"
+                    android:textDirection="ltr" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_add_rl_fats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_add_rl_proteins"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/TextUsualBlackSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/shg_location" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/subreddit_body"
+                    style="@style/TextUsualBlackSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:hint="@string/add_shg_location"
+                    android:inputType="text"
+                    android:maxWidth="230dp"
+                    android:maxLength="40"
+                    android:selectAllOnFocus="true"
+                    android:textAlignment="center"
+                    android:textDirection="ltr" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>

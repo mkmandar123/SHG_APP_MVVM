@@ -1,0 +1,330 @@
+<resources>
+    <string name="app_name">Digital Detox</string>
+
+    <!-- Intent extras -->
+    <string name="auth_token" translatable="false">auth_token</string>
+    <string name="password_reset_info" translatable="false">We\'ve emailed you instructions for setting your password. If an account exists
+        with the email you entered.
+        You should receive them shortly.If you don\'t receive an email, please make sure you\'ve entered the address you
+        registered with,
+        and check your spam folder.
+    </string>
+    <string name="password_reset_email_sent" translatable="false">Password reset email sent</string>
+    <string name="return_to_launcher_fragment" translatable="false">Return</string>
+    <string name="text_error" translatable="false">Error</string>
+    <string name="text_success" translatable="false">Success</string>
+    <string name="text_ok" translatable="false">OK</string>
+    <string name="text_cancel" translatable="false">Cancel</string>
+    <string name="email_field" translatable="false">Email</string>
+    <string name="field_password" translatable="false">Password</string>
+    <string name="field_login" translatable="false">Login</string>
+    <string name="field_username" translatable="false">Username</string>
+    <string name="field_confirm_password" translatable="false">Confirm password</string>
+    <string name="field_register" translatable="false">Register</string>
+    <string name="network_error_response" translatable="false">Error</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="my_blogs">My Blogs</string>
+    <string name="home">Home</string>
+    <string name="create">Create</string>
+
+    <string name="fragment_create_subreddit">Create</string>
+    <string name="fragment_update_subreddit">Update</string>
+    <string name="fragment_view_subreddit">View</string>
+    <string name="fragment_subreddit">Subreddit</string>
+
+
+    <string name="fragment_create_blog">Create</string>
+    <string name="fragment_update_blog">Update</string>
+    <string name="fragment_view_blog">View</string>
+    <string name="fragment_account">Account</string>
+    <string name="fragment_change_password">Change password</string>
+    <string name="fragment_blog">Blog</string>
+    <string name="save_changes">Save changes</string>
+    <string name="fragment_update_account">Update account</string>
+    <string name="arg_email" translatable="false">arg_email</string>
+    <string name="arg_username" translatable="false">arg_username</string>
+    <string name="enter_a_username">Enter a username</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="current_password">Current password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="new_password">New password</string>
+    <string name="change_password">Change password</string>
+    <string name="your_email">Your email</string>
+    <string name="your_username">Your username</string>
+    <string name="register">Register</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="update_password">Update password</string>
+    <string name="filter_asc">ASC</string>
+    <string name="filter_desc">DESC</string>
+    <string name="filter_author">SHG Name</string>
+    <string name="filter_date">SHG Creation Date</string>
+    <string name="asc_desc">Ascending or Descending Order</string>
+    <string name="author_or_date">Filter by author or date</string>
+    <string name="filter_options">Sort options</string>
+    <string name="publish">Publish</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="text_yes">yes</string>
+    <string name="are_you_sure_publish">Are you sure you want to publish this?</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete this? This can\'t be un-done.</string>
+    <string name="text_info">Info</string>
+    <string name="delete">Delete</string>
+
+    <string name="AuthNavHost" translatable="false">AuthNavHost</string>
+    <string name="AccountFragmentFactory" translatable="false">AccountFragmentFactory</string>
+    <string name="BlogFragmentFactory" translatable="false">BlogFragmentFactory</string>
+    <string name="CreateBlogFragmentFactory" translatable="false">CreateBlogFragmentFactory</string>
+    <string name="process_death_state" translatable="false">process_death_state</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="launcher">Launcher</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_forgot_password">Forgot password</string>
+    <string name="invalid_login_credentials">Invalid login</string>
+
+    <string name="type_something_to_let_your_friends_know_you_better_messaging">Type something to let your friends know you better</string>
+    <string name="take_new_profile_picture_messaging">Take new profile picture</string>
+    <string name="select_profile_picture_messaging">Select profile picture</string>
+
+
+    <string name="lorem_ipsum_1_para_vivamus">A self-help group is a financial intermediary committee usually composed of 10 to 20 local women or men between 18 to 40 years. Most self-help groups are in India, though SHGs can be found in other countries, especially in South Asia and Southeast Asia.</string>
+
+
+
+    <string name="lorem_ipsum_2_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in magna enim. Morbi vulputate at nibh sed sollicitudin. Etiam posuere, dui vel sodales fringilla, nulla justo vehicula justo, id porttitor risus mi id sapien. Nam gravida, nulla in molestie pellentesque, velit odio interdum arcu, ut efficitur ante ex quis dolor. Maecenas neque eros, imperdiet sed tincidunt non, cursus eu massa. Duis consequat lectus quis elit vestibulum, id placerat libero molestie. Vestibulum sed egestas sem. Vestibulum elit arcu, hendrerit vel rhoncus in, pellentesque at felis. Integer efficitur dignissim facilisis. Nullam erat arcu, facilisis nec accumsan vitae, posuere vel est.</string>
+    <string name="filter_request_title">Request Title</string>
+    <string name="filter_request_creation_date">Request Creation Date</string>
+    <string name="request_title_or_date">Request Title or Request Creation Date</string>
+    <string name="shg_name_or_creation_date">SHG Name or SHG Creation Date</string>
+
+
+    <string name="wrong_email_format">Wrong email format</string>
+    <string name="password_size">Password must be at least 6 characters</string>
+    <string name="about_me">Bio</string>
+    <string name="edit">Edit</string>
+    <string name="friends">Friends</string>
+    <string name="select_profile_picture">Select  picture</string>
+    <string name="take_new_profile_picture">Take new  picture</string>
+    <string name="uploading">Uploading...</string>
+    <string name="type_something_to_let_your_friends_know_you_better">Type something to let your friends know you better</string>
+    <string name="submit">Submit</string>
+    <string name="cancel_request">Cancel request</string>
+    <string name="friend_request_not_sent">Connect</string>
+    <string name="confirm">Confirm</string>
+    <string name="no_incoming_requests">No incoming requests</string>
+    <string name="no_friends_yet">No friends yet</string>
+    <string name="find_friends">Find friends</string>
+    <string name="no_one_to_chat_with_yet_add_more_friend_to_get_going">No chat history yet!! Search friends and get going!!</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="empty_message">Can\'t send empty message</string>
+
+
+    <string name="you">You: %1$s</string>
+    <string name="other">%1$s: %2$s</string>
+    <string name="other_image">%1$s sent an image</string>
+    <string name="other_file">%1$s sent a file</string>
+    <string name="no_users_to_add_yet">No users to add yet.</string>
+    <string name="you_sent_image">You sent an image</string>
+    <string name="send_file">Send file</string>
+    <string name="send_picture">Send picture</string>
+    <string name="you_sent_file">you sent a file</string>
+    <string name="you_sent_record">you sent a voice record</string>
+    <string name="other_record">%1$s sent a voice record</string>
+    <string name="delete_from_friends">Remove from friends</string>
+    <string name="no_friends">User has no friends yet</string>
+    <string name="create_group">Create Group</string>
+    <string name="join_group_using_key">Join Group using Key</string>
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Add Missing Place</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops to match your search. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by follwing simple steps.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="hello_blank_fragment">HELLO</string>
+    <string name="wrong_email_format_messaging">WRONG EMAIL</string>
+    <string name="login_password_edit_text_hint">edit</string>
+
+
+
+
+    <string name="fragment_create_feedback">Create</string>
+    <string name="fragment_update_feedback">Update</string>
+
+
+
+    <!--    FIREBASE     -->
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sign_out_from_chat">Sign Out from Chat</string>
+    <string name="save_changes_in_profile">Save</string>
+    <string name="name_chat_profile">Name</string>
+    <string name="bio_chat_profile">bio</string>
+    <string name="fragment_feedback">Fragment Feedback</string>
+    <string name="fragment_view_feedback">Fragment View Feedback</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="martial_status">Marital Status</string>
+    <string name="education">Education</string>
+    <string name="profession">profession</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="eating_habits">Eating Habits</string>
+    <string name="sleeping_habits">sleeping habits</string>
+
+
+    <string name="facebook_app_id">1039249406417764</string>
+    <string name="fb_login_protocol_scheme">fb1039249406417764</string>
+    <string name="login_email_edit_text_hint">Enter your email</string>
+    <string name="enter_your_user_name">Enter your user name</string>
+    <string name="new_user_messaging">New user?  </string>
+    <string name="sign_up_messaging">Sign up!</string>
+    <string name="login_messaging">login</string>
+    <string name="register_messaging">Register</string>
+    <string name="social_login_messaging">Social login</string>
+    <string name="password_size_messaging">Password must be at least 6 characters</string>
+    <string name="age_limit_messaging">Please enter appropriate age</string>
+    <string name="settings_messaging">Settings</string>
+    <string name="logout_messaging">Logout</string>
+    <string name="add_friend_messaging">Add friend</string>
+    <string name="search_messaging">Search</string>
+    <string name="about_me_messaging">Bio</string>
+    <string name="edit_messaging">Edit</string>
+    <string name="friends_messaging">Friends</string>
+    <string name="uploading_messaging">Uploading...</string>
+    <string name="submit_messaging">Submit</string>
+    <string name="cancel_request_messaging">Cancel request</string>
+    <string name="friend_request_not_sent_messaging">Send friend request</string>
+    <string name="confirm_messaging">Confirm</string>
+    <string name="delete_messaging">Delete</string>
+    <string name="incoming_requests_messaging">Incoming requests</string>
+    <string name="no_incoming_requests_messaging">No incoming requests</string>
+    <string name="no_friends_yet_messaging">No friends yet</string>
+    <string name="find_friends_messaging">Find friends</string>
+    <string name="profile_messaging">Profile</string>
+    <string name="no_chat_history_yet_click_chat_button_to_start_chatting_messaging">No chat history yet, Click chat button to start chatting</string>
+    <string name="no_one_to_chat_with_yet_add_more_friend_to_get_going_messaging">No one to chat with yet, Add friends to get going!</string>
+    <string name="type_a_message_messaging">Type a message</string>
+    <string name="empty_message_messaging">Can\'t send empty message</string>
+
+
+    <string name="you_messaging">You: %1$s</string>
+    <string name="other_messaging">%1$s: %2$s</string>
+    <string name="other_image_messaging">%1$s sent an image</string>
+    <string name="other_file_messaging">%1$s sent a file</string>
+    <string name="no_users_to_add_yet_messaging">No users to add yet.</string>
+    <string name="you_sent_image_messaging">You sent an image</string>
+    <string name="send_file_messaging">Send file</string>
+    <string name="send_picture_messaging">Send picture</string>
+    <string name="you_sent_file_messaging">you sent a file</string>
+    <string name="you_sent_record_messaging">you sent a voice record</string>
+    <string name="other_record_messaging">%1$s sent a voice record</string>
+    <string name="delete_from_friends_messaging">Remove from friends</string>
+    <string name="no_friends_messaging">User has no friends yet</string>
+    <string name="go_to_chat_messaging">Go to Chat</string>
+
+
+    <string name="chat_label_nav_graph">Chat</string>
+    <string name="contacts_label_nav_graph">Contacts</string>
+    <string name="different_user_profile_label_nav_graph">User Profile</string>
+    <string name="home_fragment_label_nav_graph">Home</string>
+
+    <string name="continue_to_chat">Continue to Chat!</string>
+
+
+    <string name="marital_status">Marital Status</string>
+    <string name="not_married">Not Married</string>
+    <string name="married">Married</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="about_placeholder_text">Hey! I am using Cyberveda!</string>
+    <string name="education_details_placeholder">Education Details</string>
+    <string name="my_profile">My Profile</string>
+    <string name="your_age">0</string>
+    <string name="please_enter_all_required_fields">Please enter all required fields</string>
+    <string name="shg_name">SHG Name</string>
+    <string name="shg_location">SHG Location</string>
+    <string name="chat_for_shg_members">Chat for SHG members</string>
+    <string name="add_shg_name">Add SHG Name</string>
+    <string name="add_shg_location">Add SHG Location</string>
+    <string name="add_shg_details">Add SHG Details</string>
+    <string name="shg_member_details">SHG Member Details</string>
+    <string name="go_to_shg_app">Go to SHG App</string>
+    <string name="shg_members_count">SHG Members Count</string>
+    <string name="shg_app">SHG App</string>
+    <string name="savings_first">Savings first — Credit later</string>
+    <string name="shg_loan_requests">SHG Loan Requests</string>
+    <string name="shg_saving_requests">SHG Saving Requests</string>
+    <string name="shg_details">SHG Details</string>
+    <string name="update_shg_name">Update SHG Name</string>
+    <string name="sign_up_to_chat">Sign Up to Chat</string>
+    <string name="find_members">Find Members</string>
+    <string name="add_members_to_group">Add Members to Group</string>
+    <string name="contacts">Contacts</string>
+    <string name="group_info">Group Info</string>
+    <string name="groups">Groups</string>
+    <string name="chats">Chats</string>
+    <string name="friend_requests">Friend Requests</string>
+    <string name="login_to_chat">Login to Chat</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="chat_registration">Chat Registration</string>
+    <string name="profile">Profile</string>
+    <string name="update_prfofile">Update Profile</string>
+    <string name="create_new_shg">Create New SHG</string>
+    <string name="create_new_request">Create New Request</string>
+    <string name="human_profile">Human Profile</string>
+    <string name="SHG">SHG</string>
+    <string name="update_loan_request">Update Loan Request</string>
+    <string name="update_saving_request">Update Saving Request</string>
+    <string name="request_details">Request Details</string>
+    <string name="login">Login</string>
+
+
+    <string-array name="educations_array">
+        <item>Other</item>
+        <item>Under-Graduate</item>
+        <item>Post-Graduate</item>
+
+    </string-array>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

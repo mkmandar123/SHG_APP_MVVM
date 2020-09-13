@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_subreddit"
+    app:startDestination="@id/subredditFragment">
+
+    <fragment
+        android:id="@+id/subredditFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.SubredditFragment"
+        tools:layout="@layout/fragment_subreddit">
+
+
+        <action
+            android:id="@+id/action_subredditFragment_to_viewSubredditFragment"
+            app:destination="@id/viewSubredditFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_subredditFragment_to_updateSubredditFragment"
+            app:destination="@id/updateSubredditFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_subredditFragment_to_createSubredditFragment"
+            app:destination="@id/createSubredditFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_subredditFragment_to_subuserFragment"
+            app:destination="@id/subuserFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_subredditFragment_to_humanloanprofileFragment"
+            app:destination="@id/humanloanprofileFragment" />
+        <action
+            android:id="@+id/action_subredditFragment_to_humansavingprofileFragment"
+            app:destination="@id/humansavingprofileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewSubredditFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.ViewSubredditFragment"
+        tools:layout="@layout/fragment_view_subreddit">
+
+
+        <action
+            android:id="@+id/action_viewSubredditFragment_to_updateSubredditFragment"
+            app:destination="@id/updateSubredditFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_viewSubredditFragment_to_home"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@+id/nav_subreddit"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateSubredditFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.UpdateSubredditFragment"
+        tools:layout="@layout/fragment_update_subreddit">
+
+        <action
+            android:id="@+id/action_updateSubredditFragment_to_home"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@+id/nav_subreddit"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_updateSubredditFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/createSubredditFragment"
+        android:name="com.digitaldetox.aww.ui.main.create_subreddit.CreateSubredditFragment"
+        tools:layout="@layout/fragment_create_subreddit">
+        <action
+            android:id="@+id/action_createSubredditFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/subuserFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.SubuserFragment"
+
+        tools:layout="@layout/fragment_subuser">
+        <action
+            android:id="@+id/action_subuserFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_subuserFragment_to_userloanrequestFragment"
+            app:destination="@id/userloanrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_subuserFragment_to_usersavingrequestFragment"
+            app:destination="@id/usersavingrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/userloanrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.UserloanrequestFragment"
+        tools:layout="@layout/fragment_userloanrequest">
+        <action
+            android:id="@+id/action_userloanrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_userloanrequestFragment_to_viewUserloanrequestFragment"
+            app:destination="@id/viewUserloanrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_userloanrequestFragment_to_createUserloanrequestFragment"
+            app:destination="@id/createUserloanrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_userloanrequestFragment_to_updateUserloanrequestFragment"
+            app:destination="@id/updateUserloanrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usersavingrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.UsersavingrequestFragment"
+        tools:layout="@layout/fragment_usersavingrequest">
+        <action
+            android:id="@+id/action_usersavingrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_usersavingrequestFragment_to_viewUsersavingrequestFragment"
+            app:destination="@id/viewUsersavingrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_usersavingrequestFragment_to_createUsersavingrequestFragment"
+            app:destination="@id/createUsersavingrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_usersavingrequestFragment_to_updateUsersavingrequestFragment"
+            app:destination="@id/updateUsersavingrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewUserloanrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.ViewUserloanrequestFragment"
+        tools:layout="@layout/fragment_view_userloanrequest">
+        <action
+            android:id="@+id/action_viewUserloanrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_viewUserloanrequestFragment_to_updateUserloanrequestFragment"
+            app:destination="@id/updateUserloanrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createUserloanrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.create_userloanrequest.CreateUserloanrequestFragment"
+        tools:layout="@layout/fragment_create_userloanrequest">
+        <action
+            android:id="@+id/action_createUserloanrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+
+
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateUserloanrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.UpdateUserloanrequestFragment"
+        tools:layout="@layout/fragment_update_userloanrequest">
+        <action
+            android:id="@+id/action_updateUserloanrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewUsersavingrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.ViewUsersavingrequestFragment"
+        tools:layout="@layout/fragment_view_usersavingrequest">
+        <action
+            android:id="@+id/action_viewUsersavingrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_viewUsersavingrequestFragment_to_updateUsersavingrequestFragment"
+            app:destination="@id/updateUsersavingrequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createUsersavingrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.create_usersavingrequest.CreateUsersavingrequestFragment"
+        tools:layout="@layout/fragment_create_usersavingrequest">
+        <action
+            android:id="@+id/action_createUsersavingrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+
+
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateUsersavingrequestFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.UpdateUsersavingrequestFragment"
+        tools:layout="@layout/fragment_update_usersavingrequest">
+        <action
+            android:id="@+id/action_updateUsersavingrequestFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_subreddit"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/humanloanprofileFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.HumanloanprofileFragment"
+        tools:layout="@layout/fragment_humanloanprofile" >
+        <action
+            android:id="@+id/action_humanloanprofileFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/humansavingprofileFragment"
+        android:name="com.digitaldetox.aww.ui.main.root.HumansavingprofileFragment"
+        tools:layout="@layout/fragment_humansavingprofile" >
+        <action
+            android:id="@+id/action_humansavingprofileFragment_to_subredditFragment"
+            app:destination="@id/subredditFragment" />
+    </fragment>
+</navigation>

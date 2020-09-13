@@ -1,0 +1,318 @@
+<resources>
+    <string name="app_name">Digital Detox</string>
+
+    <!-- Intent extras -->
+    <string name="auth_token">auth_token</string>
+    <string name="password_reset_info">आम्ही आपल्याला आपला संकेतशब्द सेट करण्याच्या सूचना ईमेल केल्या आहेत. एखादे खाते अस्तित्वात असल्यास
+         आपण प्रविष्ट केलेल्या ईमेलसह.
+         आपण लवकरच त्यांना प्राप्त केले पाहिजे. आपण ईमेल प्राप्त करीत नसल्यास कृपया आपण आपला पत्ता प्रविष्ट केला असल्याचे सुनिश्चित करा.
+         सह नोंदणीकृत,
+         आणि आपले स्पॅम फोल्डर तपासा.
+    </string>
+
+    <string name="account">खाते</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="my_blogs">माझे ब्लॉग</string>
+    <string name="home">मुख्यपृष्ठ</string>
+    <string name="create">तयार करा</string>
+
+    <string name="fragment_create_subreddit">तयार करा</string>
+    <string name="fragment_update_subreddit">अद्यतनित करा</string>
+    <string name="fragment_view_subreddit">पहा</string>
+    <string name="fragment_subreddit">सुब्रेडडिट</string>
+
+
+    <string name="fragment_create_blog">तयार करा</string>
+    <string name="fragment_update_blog">अद्यतनित करा</string>
+    <string name="fragment_view_blog">पहा</string>
+    <string name="fragment_account">खाते</string>
+    <string name="fragment_change_password">संकेतशब्द बदला</string>
+    <string name="fragment_blog">ब्लॉग</string>
+    <string name="save_changes">बदल जतन करा</string>
+    <string name="fragment_update_account">खाते अद्यतनित करा</string>
+    <string name="arg_email">arg_email</string>
+    <string name="arg_username">arg_username</string>
+    <string name="enter_a_username">एक वापरकर्तानाव प्रविष्ट करा</string>
+    <string name="enter_your_email">तुमचा ईमेल टाका</string>
+    <string name="current_password">सध्याचा गुप्त शब्द</string>
+    <string name="confirm_new_password">नवीन परवलीच्या शब्दाची खात्री करा</string>
+    <string name="new_password">नवीन संकेतशब्द</string>
+    <string name="change_password">संकेतशब्द बदला</string>
+    <string name="your_email">आपला ई - मेल</string>
+    <string name="your_username">आपले वापरकर्तानाव</string>
+    <string name="register">नोंदणी करा</string>
+    <string name="search">शोधा</string>
+    <string name="filter">फिल्टर करा</string>
+    <string name="update_password">संकेतशब्द अद्यतनित करा</string>
+    <string name="filter_asc">चढत्या क्रमाने</string>
+    <string name="filter_desc">उतरत्या क्रमाने</string>
+    <string name="filter_author">बचत गट नाव</string>
+    <string name="filter_date">बचत गट निर्मितीची तारीख</string>
+    <string name="asc_desc">चढत्या किंवा उतरत्या ऑर्डर</string>
+    <string name="author_or_date">लेखक किंवा तारखेनुसार फिल्टर करा</string>
+    <string name="filter_options">पर्यायांची क्रमवारी लावा</string>
+    <string name="publish">प्रकाशित करा</string>
+    <string name="are_you_sure">तुला खात्री आहे?</string>
+    <string name="text_yes">होय</string>
+    <string name="are_you_sure_publish">आपली खात्री आहे की आपण हे प्रकाशित करू इच्छिता?</string>
+    <string name="are_you_sure_delete">आपली खात्री आहे की आपण हे हटवू इच्छिता? हे केले जाऊ शकत नाही.</string>
+    <string name="text_info">माहिती</string>
+    <string name="delete">हटवा</string>
+
+    <string name="AuthNavHost">AuthNavHost</string>
+    <string name="AccountFragmentFactory">AccountFragmentFactory</string>
+    <string name="BlogFragmentFactory">BlogFragmentFactory</string>
+    <string name="CreateBlogFragmentFactory">CreateBlogFragmentFactory</string>
+
+    <string name="forgot_password">संकेतशब्द विसरलात?</string>
+    <string name="launcher">लाँचर</string>
+    <string name="login">लॉगिन</string>
+    <string name="text_login">लॉगिन</string>
+    <string name="text_register">नोंदणी करा</string>
+    <string name="text_forgot_password">संकेतशब्द विसरलात</string>
+    <string name="process_death_state">process_death_state</string>
+    <string name="invalid_login_credentials">अवैध लॉगिन</string>
+
+    <string name="type_something_to_let_your_friends_know_you_better_messaging">आपल्या मित्रांना आपल्यास अधिक चांगले कळविण्यासाठी काहीतरी टाइप करा</string>
+    <string name="take_new_profile_picture_messaging">नवीन प्रोफाइल चित्र घ्या</string>
+    <string name="select_profile_picture_messaging">प्रोफाइल चित्र निवडा</string>
+
+
+    <string name="lorem_ipsum_1_para_vivamus">एक बचतगट ही एक आर्थिक मध्यस्थी समिती असते जी सहसा 10 ते 20 स्थानिक महिला किंवा 18 ते 40 वर्षे वयोगटातील पुरुषांची बनलेली असते. बहुतेक बचत गट भारतात आहेत, जरी स्वयंसेवी गट इतर देशांमध्ये, विशेषत: दक्षिण आशिया आणि दक्षिणपूर्व आशियामध्ये आढळू शकतात.</string>
+
+
+
+    <string name="lorem_ipsum_2_para">अधिक माहितीसाठी उपयुक्त. मॅग्ना इन डोइम इन. मोर्बी वाल्‍पूटेट अणि निभ सेड सिलेक्‍ट्यूडिन. त्याऐवजी, फ्रिजिला किंवा अन्य काही दिवसांपूर्वी, काही दिवसांपूर्वी वाहनचालक, आयडी पोर्टलिटर मी माझ्या आयडी सेन्टीव्ह वर काम करू शकत नाही. गुरुत्वाकर्षण, गोंधळाच्या पेलेशोकामध्ये काम करणे, वेगवान काम करण्यापूर्वी आपण यापूर्वी कार्य केले पाहिजे. मॅसेनास नेव्हर्स इरोस, इम्परडिएट सिड टिनसिड नॉट, क्रस इयू मासिस. हे फक्त आपल्या स्वत: च्या मालकीचे आहे. वेस्टबुलम सेड इजेस्टस सेम. वेस्टिबुलम एलिट आर्कु, हेन्ड्रेट वेल रोंकस इन, पेलेन्टेस्क इन फेलिस. पूर्णांक कार्यक्षमतेसाठी सुविधाजनक सुविधा. आपण या आवृत्तीवर परत कधीही स्विच करू शकता.</string>
+    <string name="filter_request_title">विनंती शीर्षक</string>
+    <string name="filter_request_creation_date">विनंती तारीख निर्मिती</string>
+    <string name="request_title_or_date">विनंती शीर्षक किंवा विनंती निर्मितीची तारीख</string>
+    <string name="shg_name_or_creation_date">बचत गट नाव किंवा स्वयंचलित गट निर्मिती तारीख</string>
+
+
+    <string name="wrong_email_format">चुकीचे ईमेल स्वरूप</string>
+    <string name="password_size">संकेतशब्द किमान 6 वर्णांचा असावा</string>
+    <string name="about_me">बायो</string>
+    <string name="edit">सुधारणे</string>
+    <string name="friends">मित्र</string>
+    <string name="select_profile_picture">चित्र निवडा</string>
+    <string name="take_new_profile_picture">नवीन चित्र घ्या</string>
+    <string name="uploading">अपलोड करीत आहे ...</string>
+    <string name="type_something_to_let_your_friends_know_you_better">आपल्या मित्रांना आपल्यास अधिक चांगले कळविण्यासाठी काहीतरी टाइप करा</string>
+    <string name="submit">प्रस्तुत करणे</string>
+    <string name="cancel_request">विनंती रद्द</string>
+    <string name="friend_request_not_sent">कनेक्ट करा</string>
+    <string name="confirm">पुष्टी</string>
+    <string name="no_incoming_requests">येणार्‍या विनंत्या नाहीत</string>
+    <string name="no_friends_yet">अद्याप कोणतेही मित्र नाहीत</string>
+    <string name="find_friends">मित्र शोधा</string>
+    <string name="no_one_to_chat_with_yet_add_more_friend_to_get_going">अद्याप गप्पांचा इतिहास नाही !! मित्र शोधा आणि जा!</string>
+    <string name="type_a_message">एक संदेश टाइप करा </string>
+    <string name="empty_message">रिक्त संदेश पाठवू शकत नाही</string>
+
+
+    <string name="you">आपण: %1$s</string>
+    <string name="other">%1$s: %2$s</string>
+    <string name="other_image">%1$s एक प्रतिमा पाठविली</string>
+    <string name="other_file">%1$s एक फाईल पाठविली</string>
+    <string name="no_users_to_add_yet">अद्याप जोडण्यासाठी कोणतेही वापरकर्ते नाहीत.</string>
+    <string name="you_sent_image">आपण एक प्रतिमा पाठविली</string>
+    <string name="send_file">फाईल पाठवा</string>
+    <string name="send_picture">चित्र पाठव</string>
+    <string name="you_sent_file">आपण एक फाईल पाठविली</string>
+    <string name="you_sent_record">आपण व्हॉईस रेकॉर्ड पाठविला</string>
+    <string name="other_record">%1$s व्हॉईस रेकॉर्ड पाठविला</string>
+    <string name="delete_from_friends">मित्रांकडून काढा</string>
+    <string name="no_friends">वापरकर्त्यास अद्याप कोणतेही मित्र नाहीत</string>
+    <string name="create_group">गट तयार करा</string>
+    <string name="join_group_using_key">की वापरून ग्रुपमध्ये सामील व्हा</string>
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">आपले स्थान शोधा</string>
+    <string name="second_slide_title">कॉल करा</string>
+    <string name="third_slide_title">गहाळ ठिकाण जोडा</string>
+    <string name="fourth_slide_title"> मागे बसून आनंद घ्या</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">आपण निर्दिष्ट शहराच्या जवळपास किंवा त्यासह कोणतीही जागा शोधू शकता. आपल्या शोधाशी जुळण्यासाठी आम्ही विशिष्ट किंवा संबंधित सर्व दुकाने दर्शवू. </string>
+    <string name="second_slide_desc">आम्ही आमच्याकडे नोंदणीकृत सर्व विभाग आणि दुकानांची जवळजवळ सर्व संख्या प्रदान करतो. आपण बुकिंग देखील करू शकता.</string>
+    <string name="third_slide_desc">आपल्याकडे एखादे दुकान किंवा एखादी वस्तू असल्यास आणि आमच्या वाढत्या उद्योगाचा भाग व्हायचे असेल तर सोप्या चरणांचे अनुसरण करून आपले स्थान जोडा.</string>
+    <string name="fourth_slide_desc">आम्ही तुमच्यासाठी सर्व काही हाताळू. त्यावेळेस तुमच्या खिशात अॅप आहे </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">वगळा</string>
+    <string name="next_btn">पुढे</string>
+    <string name="let_get_started">चला सुरू करुया</string>
+    <string name="hello_blank_fragment">नमस्कार</string>
+    <string name="wrong_email_format_messaging">चुकीचे ईमेल</string>
+    <string name="login_password_edit_text_hint">सुधारणे</string>
+
+
+
+
+    <string name="fragment_create_feedback">तयार करा</string>
+    <string name="fragment_update_feedback">अद्यतनित करा</string>
+
+
+
+    <!--    FIREBASE     -->
+    <string name="title_home">मुख्यपृष्ठ</string>
+    <string name="title_dashboard">डॅशबोर्ड</string>
+    <string name="title_notifications">अधिसूचना</string>
+    <string name="lorem_ipsum">आपण शिफारस करतो, त्याऐवजी इतरांना चांगले काम करण्यास आवडते, परंतु कामगार व कामगार म्हणून काम करतात.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sign_out_from_chat">चॅटमधून साइन आउट करा</string>
+    <string name="save_changes_in_profile">जतन करा</string>
+    <string name="name_chat_profile">नाव</string>
+    <string name="bio_chat_profile">बायो</string>
+    <string name="fragment_feedback">तुकडा अभिप्राय</string>
+    <string name="fragment_view_feedback">तुकडा पहा अभिप्राय</string>
+    <string name="height">उंची</string>
+    <string name="weight">वजन</string>
+    <string name="martial_status">वैवाहिक स्थिती</string>
+    <string name="education">शिक्षण</string>
+    <string name="profession">व्यवसाय</string>
+    <string name="age">वय</string>
+    <string name="gender">लिंग</string>
+    <string name="eating_habits">खाण्याच्या सवयी</string>
+    <string name="sleeping_habits">झोपेच्या सवयी</string>
+
+
+    <string name="facebook_app_id">1039249406417764</string>
+    <string name="fb_login_protocol_scheme">fb1039249406417764</string>
+    <string name="login_email_edit_text_hint">तुमचा ईमेल टाका</string>
+    <string name="enter_your_user_name">आपले वापरकर्ता नाव प्रविष्ट करा</string>
+    <string name="new_user_messaging">नवीन वापरकर्ता?  </string>
+    <string name="sign_up_messaging">साइन अप करा!</string>
+    <string name="login_messaging">लॉगिन</string>
+    <string name="register_messaging">नोंदणी करा</string>
+    <string name="social_login_messaging">सामाजिक लॉगिन</string>
+    <string name="password_size_messaging">संकेतशब्द किमान 6 वर्णांचा असावा</string>
+    <string name="age_limit_messaging">कृपया योग्य वय प्रविष्ट करा</string>
+    <string name="settings_messaging">सेटिंग्ज</string>
+    <string name="logout_messaging">बाहेर पडणे</string>
+    <string name="add_friend_messaging">मित्र जोडा</string>
+    <string name="search_messaging">शोधा</string>
+    <string name="about_me_messaging">बायो</string>
+    <string name="edit_messaging">सुधारणे</string>
+    <string name="friends_messaging">मित्र</string>
+    <string name="uploading_messaging">अपलोड करीत आहे...</string>
+    <string name="submit_messaging">प्रस्तुत करणे</string>
+    <string name="cancel_request_messaging">विनंती रद्द</string>
+    <string name="friend_request_not_sent_messaging">मित्र विनंती पाठवा</string>
+    <string name="confirm_messaging">पुष्टी</string>
+    <string name="delete_messaging">हटवा</string>
+    <string name="incoming_requests_messaging">येणार्‍या विनंत्या</string>
+    <string name="no_incoming_requests_messaging">येणार्‍या विनंत्या नाहीत</string>
+    <string name="no_friends_yet_messaging">अद्याप कोणतेही मित्र नाहीत</string>
+    <string name="find_friends_messaging">मित्र शोधा</string>
+    <string name="profile_messaging">प्रोफाइल</string>
+    <string name="no_chat_history_yet_click_chat_button_to_start_chatting_messaging">अद्याप गप्पांचा इतिहास नाही, गप्पा मारण्यास प्रारंभ करण्यासाठी गप्पा बटणावर क्लिक करा</string>
+    <string name="no_one_to_chat_with_yet_add_more_friend_to_get_going_messaging">अद्याप चॅट करण्यासाठी कोणीही नाही, जाण्यासाठी मित्र जोडा!</string>
+    <string name="type_a_message_messaging">एक संदेश टाइप करा</string>
+    <string name="empty_message_messaging">रिक्त संदेश पाठवू शकत नाही</string>
+
+
+    <string name="you_messaging">आपण: %1$s</string>
+    <string name="other_messaging">%1$s: %2$s</string>
+    <string name="other_image_messaging">%1$s एक प्रतिमा पाठविली</string>
+    <string name="other_file_messaging">%1$s एक फाईल पाठविली</string>
+    <string name="no_users_to_add_yet_messaging"> अद्याप जोडण्यासाठी कोणतेही वापरकर्ते नाहीत.</string>
+    <string name="you_sent_image_messaging">आपण एक प्रतिमा पाठविली</string>
+    <string name="send_file_messaging">फाईल पाठवा</string>
+    <string name="send_picture_messaging">चित्र पाठव</string>
+    <string name="you_sent_file_messaging">आपण एक फाईल पाठविली</string>
+    <string name="you_sent_record_messaging">आपण व्हॉईस रेकॉर्ड पाठविला</string>
+    <string name="other_record_messaging">%1$s व्हॉईस रेकॉर्ड पाठविला</string>
+    <string name="delete_from_friends_messaging">मित्रांकडून काढा</string>
+    <string name="no_friends_messaging">वापरकर्त्यास अद्याप कोणतेही मित्र नाहीत</string>
+    <string name="go_to_chat_messaging">गप्पांवर जा</string>
+
+
+    <string name="chat_label_nav_graph">गप्पा</string>
+    <string name="contacts_label_nav_graph">संपर्क</string>
+    <string name="different_user_profile_label_nav_graph">वापरकर्ता प्रोफाइल</string>
+    <string name="home_fragment_label_nav_graph">मुख्यपृष्ठ</string>
+
+    <string name="continue_to_chat">गप्पा सुरू ठेवा!</string>
+
+
+    <string name="marital_status">वैवाहिक स्थिती</string>
+    <string name="not_married">अविवाहित</string>
+    <string name="married">विवाहित</string>
+    <string name="male">नर</string>
+    <string name="female">स्त्री</string>
+    <string name="your_age">0</string>
+    <string name="about_placeholder_text">अहो! मी सायबरवेद वापरत आहे!</string>
+    <string name="education_details_placeholder">शैक्षणिक तपशील</string>
+    <string name="my_profile">माझे प्रोफाइल</string>
+    <string name="please_enter_all_required_fields">कृपया सर्व आवश्यक फील्ड प्रविष्ट करा</string>
+    <string name="shg_name">बचत गट नाव</string>
+    <string name="shg_location">बचत गट</string>
+    <string name="chat_for_shg_members">बचत गट सदस्यांसाठी गप्पा मारा</string>
+    <string name="add_shg_name">बचत गट नाव जोडा</string>
+    <string name="add_shg_location">बचत गट जोडा</string>
+    <string name="add_shg_details">बचत गट तपशील जोडा</string>
+    <string name="shg_member_details">बचत गट सदस्यांचा तपशील</string>
+    <string name="go_to_shg_app">एसएचजी अ‍ॅपवर जा</string>
+    <string name="shg_members_count">बचत गट सदस्यांची संख्या</string>
+    <string name="shg_app">बचत गट अॅप</string>
+    <string name="savings_first">प्रथम बचत - नंतर क्रेडिट</string>
+    <string name="shg_loan_requests">बचत गट कर्ज विनंती</string>
+    <string name="shg_saving_requests">बचत गट बचत विनंती</string>
+    <string name="shg_details">बचत गट तपशील</string>
+    <string name="update_shg_name">बचत गट नाव अद्यतनित करा</string>
+    <string name="sign_up_to_chat">गप्पा मारण्यासाठी साइन अप करा</string>
+    <string name="find_members">सभासद शोधा</string>
+    <string name="add_members_to_group"> गटात सदस्य जोडा</string>
+    <string name="contacts">संपर्क</string>
+    <string name="group_info">गट माहिती</string>
+    <string name="groups">गट</string>
+    <string name="chats">गप्पा</string>
+    <string name="friend_requests">मित्र विनंत्या</string>
+    <string name="login_to_chat">गप्पांमध्ये लॉगिन करा</string>
+    <string name="your_profile">आपले प्रोफाइल</string>
+    <string name="chat_registration">गप्पा नोंदणी</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="update_prfofile">प्रोफाइल अद्यतनित करा</string>
+    <string name="create_new_shg">नवीन बचत गट तयार करा</string>
+    <string name="create_new_request">नवीन विनंती तयार करा</string>
+    <string name="human_profile">मानवी प्रोफाइल</string>
+    <string name="SHG">बचत गट</string>
+    <string name="update_loan_request">कर्ज विनंती अद्यतनित करा</string>
+    <string name="update_saving_request">बचत विनंती अद्यतनित करा</string>
+    <string name="request_details">विनंती तपशील</string>
+
+
+    <string-array name="educations_array">
+        <item>इतर</item>
+        <item>अंडर-ग्रॅज्युएट</item>
+        <item>पदव्युत्तर</item>
+
+    </string-array>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

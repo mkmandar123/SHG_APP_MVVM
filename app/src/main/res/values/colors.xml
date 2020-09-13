@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorDraculaOrchid">#2d3436</color>
+
+    <!--    Theme colors -->
+    <color name="colorPrimary">#6bb5ff</color>
+    <color name="colorPrimaryDark">#2c86cb</color>
+    <color name="colorPrimaryLight">#a2e7ff</color>
+    <color name="colorSecondary">#b7dbff</color>
+    <color name="colorSecondaryDark">#86a9cc</color>
+    <color name="colorSecondaryLight">#eaffff</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Secondary theme colors -->
+    <color name="tealDark">#0094DE</color>
+    <color name="tealLight">#9FDAF7</color>
+    <color name="link_blue">#0000EE</color>
+
+    <!-- other -->
+    <color name="red">#e22b2b</color>
+    <color name="red2">#fc8b8d</color>
+    <color name="grey1">#f2f2f2</color>
+    <color name="grey2">#c4c4c4</color>
+    <color name="grey3">#a8a8a8</color>
+    <color name="grey4">#7d7d7d</color>
+    <color name="grey5">#5c5c5c</color>
+
+    <color name="default_background_color">#EEEEEE</color>
+
+
+    <!-- FEED -->
+
+    <color name="colorText">#000000</color>
+    <color name="colorText_desc">#4D4D4D</color>
+
+    <color name="colorPrimary900">#3144a6</color>
+    <color name="colorPrimary800">#3663c7</color>
+    <color name="colorPrimary700">#3974da</color>
+    <color name="colorPrimary600">#3c87ed</color>
+    <color name="colorPrimary500">#3e95fc</color>
+    <color name="colorPrimary400">#4fa5ff</color>
+    <color name="colorPrimary200">#94caff</color>
+    <color name="colorPrimary100">#bedeff</color>
+    <color name="colorPrimary50">#e4f2ff</color>
+
+    <color name="colorSecondary900">#243c9c</color>
+    <color name="colorSecondary800">#285bbc</color>
+    <color name="colorSecondary700">#2a6ccf</color>
+    <color name="colorSecondary600">#2c7ee3</color>
+    <color name="colorSecondary500">#2d8cf1</color>
+    <color name="colorSecondary400">#439cf5</color>
+    <color name="colorSecondary300">#60aef8</color>
+    <color name="colorSecondary200">#8bc5fd</color>
+    <color name="colorSecondary50">#e1f1ff</color>
+
+    <color name="textColorOnYellow">#757065</color>
+
+    <!--    Common-->
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="statusBar">#FFFCF7</color>
+    <color name="arrow_ripple">#8E8E8E</color>
+    <color name="delete_ripple">#8E8E8E</color>
+    <color name="cardViewColor">#F7F7F7</color>
+    <color name="green">#00FF00</color>
+    <color name="fab_background">#888888</color>
+    <color name="detailed_card">#F9F8F8</color>
+    <color name="background">#FFFCF7</color>
+    <color name="recipesSearchBarColor">#6E6E6E</color>
+    <color name="home_card_color">#FFF5DD</color>
+    <color name="search_bar_color">#FFD59E</color>
+
+    <!-- end FEED -->
+    <color name="colorButtonsEatGainHealth">#6bb5ff</color>
+    <color name="secondaryColorMessaging">#bdbdbd</color>
+
+    <color name="secondaryLightColorMessaging">#efefef</color>
+
+    <color name="primaryColorMessaging">#b39ddb</color>
+    <color name="primaryDarkColorMessaging">#836fa9</color>
+    <color name="primaryTextColorMessaging">#000000</color>
+    <color name="secondaryTextColorMessaging">#000000</color>
+    <color name="redMessaging">#EE4B4B</color>
+    <color name="whiteMessaging">#FFFFFF</color>
+    <color name="blueMessaging">#3F51B5</color>
+    <color name="greyMessaging">#ACACAC</color>
+    <color name="semi_visibile_bgMessaging">#80ACACAC</color>
+    <color name="greenMessaging">#61B163</color>
+
+    <!--reddit colors-->
+    <color name="upVoteColor">#FF8B60</color>
+    <color name="downVoteColor">#9494FF</color>
+    <color name="saveContentColor">#FFB100</color>
+
+
+    <!--light theme colors-->
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_primary_variant">#FAFAFA</color>
+    <color name="color_on_primary">#000000</color>
+    <color name="color_on_primary_light">#dbe2ef</color>
+    <color name="color_secondary">#9e47ff</color>
+    <color name="color_secondary_alt">#ffd700</color>
+    <color name="color_secondary_variant">#6200ee</color>
+    <color name="color_on_secondary">#000000</color>
+    <color name="color_error">#F44336</color>
+    <color name="color_on_error">#FFFFFF</color>
+    <color name="color_surface">#F5F5F5</color>
+    <color name="color_on_surface">#000000</color>
+    <color name="color_background">#FFFFFF</color>
+    <color name="color_on_background">#000000</color>
+    <color name="color_status_bar">#FFFFFF</color>
+    <color name="color_scrim">#52000000</color>
+
+    <!--    Common-->
+
+    <color name="water_card">#FFFCF1</color>
+    <color name="preference_title">#53B4DF</color>
+    <color name="delete_account">#FF5722</color>
+
+
+    <color name="percianBlue">#0C2F3E</color>
+
+    <!--  Text colour     -->
+
+
+    <color name="secondaryLightColor">#EDEDF1</color>
+    <!--  button colour     -->
+
+    <color name="primaryColor">#0C2F3E</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="blue">#3F51B5</color>
+    <color name="grey">#ACACAC</color>
+    <!--  Actionbar colour     -->
+
+
+    <!--  color_cartimg_background     -->
+    <color name="dark">#31456a</color>
+
+    <!--  menufount colour     -->
+
+
+
+</resources>
